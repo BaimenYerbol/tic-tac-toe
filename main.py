@@ -142,7 +142,7 @@ for i in range(1000):
     draw_the_field()
     if i % 2 == 0:
         while True:
-            print('Введите строку и столбец через пробел:')
+            print('Ход крестиков. Введите строку и столбец через пробел:')
             move = input().split()
             if check_moves(move):
                 make_x_move(move)
@@ -151,7 +151,7 @@ for i in range(1000):
                 continue
     elif i % 2 == 1:
         while True:
-            print('Введите строку и столбец через пробел:')
+            print('Ход ноликов. Введите строку и столбец через пробел:')
             move = input().split()
             if check_moves(move):
                 make_o_move(move)
